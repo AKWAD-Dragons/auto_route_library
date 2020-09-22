@@ -15,6 +15,7 @@ dependencies:
   auto_route: 
     git:
       url: https://github.com/AKWAD-Dragons/auto_route_library.git
+      ref: fix-null-root
       path: auto_route
 #    path: ../auto_route
 
