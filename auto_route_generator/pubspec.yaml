@@ -12,8 +12,10 @@ dependencies:
   analyzer: ">=0.39.14 <0.40.0"
   path: ^1.6.4
   build_runner: ^1.10.1
-  auto_route:
-     ^0.6.7
+  auto_route: 
+    git:
+      url: https://github.com/AKWAD-Dragons/auto_route_library.git
+      path: auto_route
 #    path: ../auto_route
 
 dev_dependencies:
