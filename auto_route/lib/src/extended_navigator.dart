@@ -460,9 +460,9 @@ class ExtendedNavigatorState<T extends RouterBase>
     }
     WidgetsBinding.instance.removeObserver(this);
 
-    if (routerName != null) {
-      _NavigatorsContainer._instance.remove(routerName);
-    }
+    // if (routerName != null) {
+    //   _NavigatorsContainer._instance.remove(routerName);
+    // }
     super.dispose();
   }
 
